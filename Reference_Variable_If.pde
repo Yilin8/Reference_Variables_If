@@ -60,7 +60,6 @@ void setup() {
    noStroke();
   fill(255,255,0);
    ellipse(90,120,20,20);
-
-   }
+}
    
    
