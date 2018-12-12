@@ -21,7 +21,7 @@ void setup() {
      x=15;
      
    }
-  }
+  
    stroke(random(255));
    noFill();
    strokeWeight(10);
@@ -29,10 +29,11 @@ void setup() {
    circleX = circleX+flat;
    if(circleX>180){
      circleX=-50;
+     }
      if(circleX<0){
        circleX=50;
      }
-   }
+   
     stroke(random(255));
    noFill();
    strokeWeight(10);
@@ -40,10 +41,11 @@ void setup() {
    dog = dog+cat;
    if(dog>180){
      dog = -50;
+     }
      if(dog<0){
        dog = 50;
      }
-   }
+   
     stroke(255);
    noFill();
    strokeWeight(20);
