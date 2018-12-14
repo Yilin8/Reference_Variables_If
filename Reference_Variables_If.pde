@@ -8,7 +8,8 @@ float cat=10;
 void setup() {
    size(500,400);
  }
- void draw(){
+
+void draw(){
   frameRate(5);
    background(255,0,0);
    noStroke();
@@ -17,9 +18,12 @@ void setup() {
   x = x+ball;
   if(x>86){
    x=-15;
+   }
    if(x<0){
      x=15;
+     }
      
+   
    }
   
    stroke(random(255));
@@ -34,7 +38,7 @@ void setup() {
        circleX=50;
      }
    
-    stroke(random(255));
+   stroke(random(255));
    noFill();
    strokeWeight(10);
    ellipse(400,dog,20,20);
