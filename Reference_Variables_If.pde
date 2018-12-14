@@ -8,8 +8,7 @@ float cat=10;
 void setup() {
    size(500,400);
  }
-
-void draw(){
+ void draw(){
   frameRate(5);
    background(255,0,0);
    noStroke();
@@ -18,14 +17,11 @@ void draw(){
   x = x+ball;
   if(x>86){
    x=-15;
-   }
    if(x<0){
      x=15;
-     }
      
-   
    }
-  
+  }
    stroke(random(255));
    noFill();
    strokeWeight(10);
@@ -33,23 +29,21 @@ void draw(){
    circleX = circleX+flat;
    if(circleX>180){
      circleX=-50;
-     }
      if(circleX<0){
        circleX=50;
      }
-   
-   stroke(random(255));
+   }
+    stroke(random(255));
    noFill();
    strokeWeight(10);
    ellipse(400,dog,20,20);
    dog = dog+cat;
    if(dog>180){
      dog = -50;
-     }
      if(dog<0){
        dog = 50;
      }
-   
+   }
     stroke(255);
    noFill();
    strokeWeight(20);
@@ -66,6 +60,7 @@ void draw(){
    noStroke();
   fill(255,255,0);
    ellipse(90,120,20,20);
-}
+
+   }
    
    
